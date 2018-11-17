@@ -20,26 +20,26 @@ This is a written description of your research project. Depending on the specifi
 3. What specific hypothesis (hypotheses) are you going to test?
 
 > Some specific hypotheses we are going to test are:
-    - Does you choice of college and/or major(s) have a significant impact on your overall salary?
-    - Are there any significant differences in job salary at different stages of your career because of your college and/or major(s)?
+> - Does you choice of college and/or major(s) have a significant impact on your overall salary?
+> - Are there any significant differences in job salary at different stages of your career because of your college and/or major(s)?
 
 4. What are the datasets you'll be working with to answer this question? Please include relevant background describing the datasets you identify.
 
 > The datasets we will be working with in order to answer our research questions come from here: “Where it Pays to Attend College" (https://www.kaggle.com/wsj/college-salaries). Though they are not so recent (last updated two years ago), they are from the Wall Street Journal, which is a credible source. It contains
-    - degrees-that-pay-back.csv
-    - salaries-by-college-type.csv
-    - salaries-by-region.csv
+> - degrees-that-pay-back.csv
+> - salaries-by-college-type.csv
+> - salaries-by-region.csv
 > The main dataset we will be using is “degrees-that-pay-back.csv”. It contains various attributes like Undergraduate Major, Starting Median Salary, Mid-Career Median Salary, Percent change from Starting to Mid-Career Salary, etc. We will be able to utilize the data to understand the correlation between majors and salaries, and also the trend of salary growth.
 
 5. What statistical and machine learning methods do you plan on using to test your hypothesis?
 
 > We want to predict salary using majors, so we plan on using multiple linear regressions in order to test our hypotheses.
-    - Use multiple indicators, college, major, etc., in order to predict salary for an individual
-    - Linear regression will be useful because it allows us to measure the strength of impact of different indicators
-    - Forward selection to determine the best possible variable combination for our model
-    - Appropriate separation and use of training and test data
-    - Cross-validation
-    - Grid-search to optimize hyper parameters
+> - Use multiple indicators, college, major, etc., in order to predict salary for an individual
+> - Linear regression will be useful because it allows us to measure the strength of impact of different indicators
+> - Forward selection to determine the best possible variable combination for our model
+> - Appropriate separation and use of training and test data
+> - Cross-validation
+> - Grid-search to optimize hyper parameters
 
 6. Who is your target audience for the resource you will build? Depending on the domain of your data, there may be a variety of audiences interested in using the dataset. You should hone in on one of these audiences.
 
@@ -48,10 +48,10 @@ This is a written description of your research project. Depending on the specifi
 7. What should your audience learn from your resource? Consider specific questions they may want to answer.
 
 > We hope our audience can learn the correlation, or the lack of, between majors and salaries. In addition, there are salary growths at different periods of a career, even if the career does not change. We will demonstrate how major decisions are generally affecting salaries. Some specific questions include:
-    - Which majors get the highest salary in different periods (starting, Mid-Career, etc.)?
-    - Which majors have the most salary growth?
-    - How do salaries from different majors change over time?
-    - What is the salary ceiling for different majors?
+> - Which majors get the highest salary in different periods (starting, Mid-Career, etc.)?
+> - Which majors have the most salary growth?
+> - How do salaries from different majors change over time?
+> - What is the salary ceiling for different majors?
 
 
 ## Technical Description
