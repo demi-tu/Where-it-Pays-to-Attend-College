@@ -29,6 +29,7 @@ This is a written description of your research project. Depending on the specifi
 > - degrees-that-pay-back.csv
 > - salaries-by-college-type.csv
 > - salaries-by-region.csv
+
 > The main dataset we will be using is “degrees-that-pay-back.csv”. It contains various attributes like Undergraduate Major, Starting Median Salary, Mid-Career Median Salary, Percent change from Starting to Mid-Career Salary, etc. We will be able to utilize the data to understand the correlation between majors and salaries, and also the trend of salary growth.
 
 5. What statistical and machine learning methods do you plan on using to test your hypothesis?
